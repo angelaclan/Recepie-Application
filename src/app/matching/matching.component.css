@@ -1,0 +1,16 @@
+.matching {
+    background-color: #E6BF70;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;    
+}
+    .matching h3 {
+        color: #3A1115;
+        font-family: Arial, Helvetica, sans-serif;
+        font: Montserrat Subrayada;
+        font-weight: 700;
+        font-size: 28px;
+        text-align: right;
+        padding: 20px;
+        margin: 20px;       
+    }

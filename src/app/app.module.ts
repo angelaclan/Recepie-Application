@@ -1,14 +1,20 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
+import { IngredientsInputComponent } from './ingredients-input/ingredients-input.component';
+import { MatchingComponent } from './matching/matching.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    IngredientsInputComponent,
+    MatchingComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

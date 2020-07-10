@@ -1,0 +1,35 @@
+/*.Ingredients-input Component's private CSS styles */
+.ingredients-input {
+    max-width: 500;
+    margin: 20px;
+    padding: 20px;
+}    
+    .ingredients-input label {
+        color: #3A1115;
+        font-family: Arial, Helvetica, sans-serif;
+        font: Montserrat Subrayada;
+        font-weight: 500;
+        font-size: 20px;
+    }
+    .ingredients-input input {
+        color: #3A1115;
+        font-family: Arial, Helvetica, sans-serif;
+        font: Montserrat Subrayada;
+        font-size: 20px;
+        border: 5px double hsl(28, 84%, 54%);
+        border-radius: 10px;  
+        border: dotted;
+        border-color: beige;  
+        
+    }
+    .ingredients-input div {
+        padding: 5px;
+        margin-left: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .ingredients-input label {
+        margin: 5px;
+    }
+    
+
